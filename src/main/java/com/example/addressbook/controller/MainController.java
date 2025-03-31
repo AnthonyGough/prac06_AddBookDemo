@@ -25,7 +25,7 @@ public class MainController {
     @FXML
     private VBox contactContainer;
     public MainController() {
-        contactDAO = new MockContactDAO();
+        MockContactDAO mockContactDAO = new MockContactDAO();
     }
 
     /**
