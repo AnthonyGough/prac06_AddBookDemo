@@ -1,7 +1,7 @@
 module com.example.addressbook {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.sql;
+    requires org.xerial.sqlitejdbc;
 
 
     opens com.example.addressbook to javafx.fxml;

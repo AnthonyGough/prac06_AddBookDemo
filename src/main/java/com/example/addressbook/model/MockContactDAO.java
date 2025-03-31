@@ -7,7 +7,7 @@ public class MockContactDAO implements IContactDAO {
     /**
      * A static list of contacts to be used as a mock database.
      */
-    public static final ArrayList<Contact> contacts = new ArrayList<>();
+    private static final ArrayList<Contact> contacts = new ArrayList<>();
     private static int autoIncrementedId = 0;
 
     public MockContactDAO() {
